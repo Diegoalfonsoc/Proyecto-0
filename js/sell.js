@@ -32,6 +32,7 @@ document.addEventListener("DOMContentLoaded", function(e){
         productCount = this.value;
         updateTotalCosts();
     });
+    
 
     document.getElementById("productCostInput").addEventListener("change", function(){
         productCost = this.value;

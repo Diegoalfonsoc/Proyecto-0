@@ -188,3 +188,22 @@ a.custom-card:hover {
 .checked {
   color: orange;
 }
+.prof{
+  color: white;
+}
+
+#ecomimg{
+  text-align: center;
+  width: 70%;
+  margin-bottom: 20px;
+  margin-left: 14%;
+}
+.inp{
+  width: 50%;
+  margin: 0 auto;
+}
+.bt{
+  margin-left: 46%;
+  
+}
+
