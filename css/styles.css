@@ -206,4 +206,26 @@ a.custom-card:hover {
   margin-left: 46%;
   
 }
+.commcontainer{
+  background-color: white;
+  margin-right: 500px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.general{
+  margin-left: 115px;
+}
+.comment{
+  margin-left: 5px;
+}
+.ucomment{
+  margin-left: 5px;
+}
+.rat {
+  margin-left: 3px;
+}
+a {
+  text-decoration: none
+}
 

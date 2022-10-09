@@ -10,6 +10,8 @@
   <link href="css/font-awesome.min.css" rel="stylesheet">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
+  <link href="css/prueba.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -31,18 +33,68 @@
             <a class="nav-link" href="sell.html">Vender</a>
           </li>
           <li class="nav-item">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle prof" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="cart.html">Mi Carrito</a></li>
+                <li><a class="dropdown-item" href="my-profile.html">Mi Perfil</a></li>
+                <li><button class="dropdown-item" onclick="logout()">Cerrar Sesión</a></li>
+              </ul>
+            </div>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <main>
-    <div class="container">
-      <div class="alert alert-danger text-center" role="alert">
-        <h4 class="alert-heading">Funcionalidad en desarrollo</h4>
+  <div id="product-info"></div>
+  <div id="title">
+    <div id="cost">
+      <div id="desc"></div>
+      <div class="container">
+        <div class="row">
+          <div id="prodImag">
+          </div>
+        </div>
       </div>
+
     </div>
-  </main>
+  </div>
+  <div class="container">
+    <h2>Productos relacionados</h2>
+    <div class="row" id="relatedProd">
+      
+    </div>
+  </div>
+  </div><br>
+  <div class="container">
+    <h5><strong>Comentarios</strong></h5>
+    <div id="comm"></div>
+    <form>
+      <h5>Comentar</h5>
+      <h8>Comparte tu opinión:</h8><br>
+      <textarea id="w3review" name="w3review" rows="3" cols="45"></textarea><br />
+      <p>Tu puntuación</p>
+      <div class="ratform">
+        <form action="#">
+          <label for="rat0"></label>
+          <select name="ratsel" id="rat0">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </form><br>
+      </div>
+      <br>
+      <button class="btn btn-primary" type="submit">Comentar</button>
+    </form>
+    <hr>
+  </div>
+
   <footer class="text-muted">
     <div class="container">
       <p class="float-end">
