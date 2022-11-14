@@ -228,4 +228,44 @@ a.custom-card:hover {
 a {
   text-decoration: none
 }
+.cart {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  padding-bottom: 1%;
 
+}
+.info {
+  padding-top: 2%;
+}
+#modalbtn {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.tab {
+  margin-top: 1%;
+}
+#cimg {
+  margin-bottom: 50px; 
+}
+th {
+  border-bottom: 1px solid black;
+  border-collapse: collapse;
+}
+td {
+  inset: 1px;
+}
+
+.cost{
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.cost_span{
+  color: gray;
+}
+
+.price{
+  float: right;
+}
